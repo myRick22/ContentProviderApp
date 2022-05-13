@@ -16,6 +16,7 @@ import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imgContacts = findViewById(R.id.imgContacts);
+
+        Toast.makeText(this, "rgehewr", Toast.LENGTH_SHORT).show();
 
         imgContacts.setOnClickListener(view -> {
 
